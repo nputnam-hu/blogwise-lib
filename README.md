@@ -10,13 +10,13 @@ blogwise application is composed of the following components...
 
 ## Contents
 
-- Development
-  - Prereqs and Setup
-  - Contribution
-  - Styleguides
-  - Approach to CSS
-  - Styleguides and Linters
-- Application Architecture
+- [Development](README.md#development)
+  - [Prereqs and Setup](README.md#prereqs-and-setup)
+    - [Test Db](README.md#test-db)
+  - [Contribution](README.md#contribution)
+  - [Styleguides and Linters](README.md#styleguides-and-linters)
+  - [Approach to CSS](README.md#approach-to-css)
+- [Application Architecture](README.md#application-architecture)
 
 ## Development
 
@@ -62,6 +62,17 @@ If you'd like to start working on a repo, follow these steps:
   - Reasoning behind any non-trivial design decisions, and
   - Any new bugs or quirks
 
+### Styleguides and Linters
+
+We typically default to the Airbnb style guides for
+[JavaScript](https://github.com/airbnb/javascript),
+[React](https://github.com/airbnb/javascript/tree/master/react), and
+[CSS/Sass](https://github.com/airbnb/css) with minor changes. The
+`.eslintrc.json` and `.prettierrc` files associated with our projects are
+located in the `linter-configs` folder.
+
+We recommend using VSCode with the `formatOnSave` setting turned on.
+
 ### Approach to CSS
 
 Our CSS strategy uses `sass` with CSS Modules. There are [many
@@ -75,17 +86,6 @@ classes will never affect a subcomponent's classes.
 Styling for pages should be stored in `/src/styles`. Styles for components
 should be stored with the components. Note that Gatsby v2 currently doesn't
 support nesting pages in folders without the use of a plugin ()
-
-### Styleguides and Linters
-
-We typically default to the Airbnb style guides for
-[JavaScript](https://github.com/airbnb/javascript),
-[React](https://github.com/airbnb/javascript/tree/master/react), and
-[CSS/Sass](https://github.com/airbnb/css) with minor changes. The
-`.eslintrc.json` and `.prettierrc` files associated with our projects are
-located in the `linter-configs` folder.
-
-We recommend using VSCode with the `formatOnSave` setting turned on.
 
 ## Application Architecture
 
