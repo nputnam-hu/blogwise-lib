@@ -84,8 +84,10 @@ in a modular, React mindset. This means that when nesting components, one's CSS
 classes will never affect a subcomponent's classes.
 
 Styling for pages should be stored in `/src/styles`. Styles for components
-should be stored with the components. Note that Gatsby v2 currently doesn't
-support nesting pages in folders without the use of a plugin ()
+should be stored with the components. Global vars and classes use across
+components can be imported from `global.sass`. Note that Gatsby v2 currently
+doesn't support nesting pages in folders without the use of a plugin (see [issue
+#2](https://github.com/nputnam-hu/blogwise-lib/issues/2)).
 
 ## Application Architecture
 
