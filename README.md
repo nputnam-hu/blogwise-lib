@@ -94,6 +94,8 @@ doesn't support nesting pages in folders without the use of a plugin (see [issue
 The structure of the blogwise application is broken across 4 different
 repositories. 
 
+![architecture-graphic](https://github.com/nputnam-hu/blogwise-lib/blob/master/images/Architecture%20Graphic.jpg)
+
 ### blogwise-landing
 
 The first repo that a client ends up interacting with a website that's stored in
