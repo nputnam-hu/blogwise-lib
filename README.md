@@ -113,7 +113,7 @@ hood, the Dashboard is making calls to the blogwise API, which does the heavy
 lifting with regards to managing the database and interfacing with the Netlify
 hosting. 
 
-### blogwise-api
+### blogwise-api 
 
 The blogwise API ensures two things: 
 
